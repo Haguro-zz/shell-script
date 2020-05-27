@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a92027-34d7-4f42-8458-eadae28bf283" name="Default Changelist" comment="Rede e Uname" />
+    <list default="true" id="82a92027-34d7-4f42-8458-eadae28bf283" name="Default Changelist" comment="Rede e Uname">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rede.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rede.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +49,36 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RunManager" selected="Shell Script.memoria.sh">
+    <configuration name="memoria.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/rede.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rede.sh" type="ShConfigurationType" singleton="false" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/rede.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.memoria.sh" />
+        <item itemvalue="Shell Script.rede.sh" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590599645239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changelist">
+      <created>1590620211632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590620211633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,17 +124,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="Rede e Uname" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rede e Uname" />
+    <MESSAGE value="Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changelist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590588966414">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="141" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1590588966414" />
+    <state x="348" y="92" width="669" height="555" key="#rede.sh" timestamp="1590621191701">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="348" y="92" width="669" height="555" key="#rede.sh/0.0.1366.732@0.0.1366.732" timestamp="1590621191701" />
     <state x="172" y="0" width="1022" height="732" key="SettingsEditor" timestamp="1590588925506">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

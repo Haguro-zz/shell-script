@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82a92027-34d7-4f42-8458-eadae28bf283" name="Default Changelist" comment="Rede">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rede.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rede.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,6 +1,4 @@
-<h1> SHELL SCRIPT <h1>
-
-***
+<h1>SHELL SCRIPT
 
 <h2> Entrada e Saída <h2>
 
@@ -76,6 +74,14 @@ Ex.: # echo "um dois três quatro cinco" | tr " " ":"
      # echo "um dois três quatro cinco" | tr -d "r"
 ```
 
+* wc : conta os caracteres de uma string ou arquivos
+
+```buildoutcfg
+-l : conta as linhas
+-w : conta as palavras
+-c : conta os caracteres
+```
+
 <h2>Condições<h2>
 
 * IF
@@ -111,4 +117,24 @@ test [ condição ] : salva o resultado na variável $?
 
 Ex.: # test 10 -gt 5
      # echo $?
+```
+
+* Comparações
+
+```buildoutcfg
+"a" == "a"
+"a" != "b"
+
+10 -gt 5 (Greater than)
+10 -lt 5 (Less than)
+10 == 10 
+10 != 5
+```
+
+<h2>Funções<h2>
+
+```buildoutcfg
+nomeFunção() { código da função ; }
+
+Ex.: # soma() { $a +$b ;}
 ```

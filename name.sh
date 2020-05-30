@@ -20,10 +20,7 @@ uname -a | cut -d" " -f6,7
 echo -e "\033[m---------------------------------"
 
 echo -e "Usuários conectados: \033[1;31m\n"
-echo -e "\033[1;34mUSUÁRIO CONEXÃO DATA HORA IP\033[m" > users
-echo -e "\033[33m"$(who)"\033[m" >> users
-cat users | column -t -e -c5
-rm users
+who -H
 echo -e "\033[m---------------------------------"
 
 printf "Processador: \033[1;31m"

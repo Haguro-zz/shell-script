@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82a92027-34d7-4f42-8458-eadae28bf283" name="Default Changelist" comment="Name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/name.sh" beforeDir="false" afterPath="$PROJECT_DIR$/name.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590849994445</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Name">
+      <created>1590850129594</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590850129594</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,10 +194,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="172" y="0" width="1022" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1590588925506" />
-    <state x="278" y="104" width="810" height="531" key="Vcs.Push.Dialog.v2" timestamp="1590850003404">
+    <state x="278" y="104" width="810" height="531" key="Vcs.Push.Dialog.v2" timestamp="1590850135183">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="278" y="104" width="810" height="531" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1590850003404" />
+    <state x="278" y="104" width="810" height="531" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1590850135183" />
     <state x="346" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1590599010990">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

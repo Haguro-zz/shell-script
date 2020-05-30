@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82a92027-34d7-4f42-8458-eadae28bf283" name="Default Changelist" comment="Rede">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/name.sh" beforeDir="false" afterPath="$PROJECT_DIR$/name.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rede.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rede.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,17 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="name.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/name.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rede.sh" type="ShConfigurationType" singleton="false" temporary="true">
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/rede.sh" />
@@ -75,6 +87,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Shell Script.memoria.sh" />
+        <item itemvalue="Shell Script.name.sh" />
         <item itemvalue="Shell Script.rede.sh" />
       </list>
     </recent_temporary>

@@ -1,8 +1,8 @@
-<h1>SHELL SCRIPT
+SHELL SCRIPT
 
-<h2> Entrada e Saída <h2>
+Entrada e Saída
 
-* echo - exibe uma mensagem e pula uma linha
+echo - exibe uma mensagem e pula uma linha
 
 ```
 -e : adiciona parâmetros de controle
@@ -11,13 +11,13 @@
 Ex.: # echo -e "Oi!\nTudo Bem?"
 ```
 
-* printf - exibe uma mensagem, e mantém a mesma linha
+printf - exibe uma mensagem, e mantém a mesma linha
 
 ```
 Ex.: # printf "Olá!"
 ```
 
-* read - lê uma entrada do usuário
+read - lê uma entrada do usuário
 
 ```
 -p : exibe uma mensagem
@@ -28,7 +28,7 @@ Ex.: # read -p "Qual a sua idade? " idade
      # echo $idade
 ```
 
-<h2>Variáveis Especiais<h2>
+Variáveis Especiais
 
 ```
 $0 : Nome / caminho do script
@@ -37,9 +37,9 @@ $* : quando se recebe mais de 9 argumentos, exibe todos
 S? : errorlevel do último comando
 ```
 
-<h2>Filtros<h2>
+Filtros
 
-* grep "string" : encontra a string nas linhas
+grep "string" : encontra a string nas linhas
 
 ```
 --color : colore a string buscada
@@ -65,7 +65,7 @@ Ex.: # echo "um dois três quatro cinco" | cut -d" " -f3
      # echo "um dois três quatro cinco" | cut -b 10
 ```
 
-* tr "c1" "c2" :
+tr "c1" "c2" :
 
 ```
 -d : deleta o caractere
@@ -74,7 +74,7 @@ Ex.: # echo "um dois três quatro cinco" | tr " " ":"
      # echo "um dois três quatro cinco" | tr -d "r"
 ```
 
-* wc : conta os caracteres de uma string ou arquivos
+wc : conta os caracteres de uma string ou arquivos
 
 ```buildoutcfg
 -l : conta as linhas
@@ -82,9 +82,9 @@ Ex.: # echo "um dois três quatro cinco" | tr " " ":"
 -c : conta os caracteres
 ```
 
-<h2>Condições<h2>
+Condições
 
-* IF
+IF
 
 ```
 if [ condição ];
@@ -98,7 +98,7 @@ fi
 Ex.: # if [ a == a ]; then echo "São iguais"; else echo "são diferentes"; fi
 ```
 
-* CASE
+CASE
 
 ```
 case $variavel in
@@ -110,7 +110,7 @@ case $variavel in
 esac
 ```
 
-* TEST
+TEST
 
 ```
 test [ condição ] : salva o resultado na variável $?
@@ -119,7 +119,7 @@ Ex.: # test 10 -gt 5
      # echo $?
 ```
 
-* Comparações
+Comparações
 
 ```buildoutcfg
 "a" == "a"
@@ -131,7 +131,7 @@ Ex.: # test 10 -gt 5
 10 != 5
 ```
 
-<h2>Funções<h2>
+Funções
 
 ```buildoutcfg
 nomeFunção() { código da função ; }

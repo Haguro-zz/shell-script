@@ -1,4 +1,4 @@
-#SHELL SCRIPT
+# SHELL SCRIPT
 
 Códigos escritos em shell script para obter detalhes da máquina.
 

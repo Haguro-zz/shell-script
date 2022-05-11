@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Verificação de sistema
+# Verifica se o arquivo existe, sendo um RedHat Release
 if [ -f "/etc/redhat-release" ]
 then
         version_SO=$(cat /etc/redhat-release)

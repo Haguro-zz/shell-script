@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Verificação de sistema
+if [ -f "/etc/redhat-release" ]
+then
+        version_SO=$(cat /etc/redhat-release)
+else
+        version_SO=$(uname -a | cut -d" " -f3)
+fi
+
 echo -e "\n   \033[1mDados da Máquina"
 echo -e "=======================\033[m\n"
 
@@ -12,7 +20,7 @@ uname -a | cut -d" " -f2
 echo -e "\033[m---------------------------------"
 
 printf "Versão: \033[1;31m"
-uname -a | cut -d" " -f3
+echo "$version_SO"
 echo -e "\033[m---------------------------------"
 
 printf "Kernel: \033[1;31m"

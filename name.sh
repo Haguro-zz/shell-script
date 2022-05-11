@@ -5,7 +5,7 @@ if [ -f "/etc/redhat-release" ]
 then
         version_SO=$(cat /etc/redhat-release)
 else
-        version_SO=$(cat /etc/issue | grep cut -d '\' -f1)
+        version_SO=$(cat /etc/issue | awk '{print $1,$2,$3}')
 fi
 
 echo "\n \033[1mDados da Máquina"

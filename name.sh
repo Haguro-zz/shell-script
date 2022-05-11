@@ -8,12 +8,12 @@ else
         version_SO=$(cat /etc/issue | grep cut -d '\' -f1)
 fi
 
-echo "\n   \033[1mDados da Máquina"
+echo "\n \033[1mDados da Máquina"
 echo "=======================\033[m\n"
 
 printf "Data: \033[1;31m"
 date "+%A, %d/%m/%Y - %H:%M"
-echo -e "\033[m---------------------------------"
+echo "\033[m---------------------------------"
 
 printf "Host: \033[1;31m"
 uname -a | cut -d" " -f2
